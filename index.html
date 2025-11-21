@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JT Trauma Therapy | Private Medical Aid</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">JT Trauma Therapy</div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#therapists">Therapists</a>
+      <a href="#booking">Book</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-content">
+        <h1>Rapid Trauma Therapy for Modern Professionals</h1>
+        <p>
+          Discreet, high‑quality trauma‑informed therapy sessions, available online and in person. 
+          Request an appointment in under 60 seconds.
+        </p>
+        <a href="#booking" class="btn-primary">Book a Session</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About JT Trauma Therapy</h2>
+      <p>
+        JT Trauma Therapy is designed for young adults and professionals who want fast access to 
+        credible mental health support. No call‑centre scripts, no endless forms – just clear communication 
+        and a safe space to process what you’ve been through.
+      </p>
+    </section>
+
+    <section id="services" class="section section-grid">
+      <div>
+        <h2>What We Offer</h2>
+        <ul>
+          <li>1:1 online trauma‑focused therapy sessions</li>
+          <li>Short‑term stabilisation plans after difficult events</li>
+          <li>Tools for flashbacks, anxiety and sleep issues</li>
+          <li>Referral letters where clinically appropriate</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Who It’s For</h2>
+        <ul>
+          <li>Students balancing stress, study and life pressure</li>
+          <li>Young professionals dealing with burnout or crisis</li>
+          <li>People recovering from sudden or long‑term trauma</li>
+          <li>Anyone who wants support without stigma or judgement</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="therapists" class="section">
+      <h2>Meet the Team</h2>
+      <p>
+        JT Trauma therapists are qualified, insured professionals with experience in trauma‑focused 
+        approaches such as EMDR, CBT and integrative counselling. You’ll be matched with someone based on 
+        your goals, schedule and preferences.
+      </p>
+    </section>
+
+    <section id="booking" class="section booking-section">
+      <h2>Book a Therapy Session</h2>
+      <p>
+        Use the form below to request an appointment. We’ll respond by email within one working day to 
+        confirm times and pricing, and to make sure JT Trauma Therapy is the right fit for you.
+      </p>
+
+      <form id="booking-form">
+        <div class="form-row">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required placeholder="Your name" />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com" />
+        </div>
+
+        <div class="form-row">
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" min="16" max="120" required />
+        </div>
+
+        <div class="form-row">
+          <label for="sessionType">Preferred session type</label>
+          <select id="sessionType" name="sessionType" required>
+            <option value="">Select an option</option>
+            <option value="online">Online video session</option>
+            <option value="in-person">In‑person session (where available)</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="availability">When are you usually free?</label>
+          <input type="text" id="availability" name="availability"
+                 placeholder="e.g. Weekday evenings after 6pm" />
+        </div>
+
+        <div class="form-row">
+          <label for="notes">Anything you’d like us to know?</label>
+          <textarea id="notes" name="notes" rows="4"
+                    placeholder="Optional: a brief outline of what you’d like help with."></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary">Send Booking Request</button>
+        <p id="form-message" class="form-message"></p>
+      </form>
+
+      <p class="disclaimer">
+        JT Trauma Therapy is not an emergency service. If you are in immediate danger or thinking of harming yourself, 
+        contact your local emergency number or crisis service now.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 JT Trauma Therapy · Private Medical Aid</p>
+    <p><a href="mailto:bookings@jttrauma.example">bookings@jttrauma.example</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
