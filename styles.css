@@ -34,6 +34,14 @@ a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
+.hero-image {
+  width: 120px;      /* adjust size */
+  height: auto;
+  display: block;
+  margin: 0 auto 1.5rem auto; /* centre + spacing */
+  border-radius: 12px; /* optional: soft corners */
+}
+
 .logo {
   font-weight: 700;
   letter-spacing: 0.08em;
